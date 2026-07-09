@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+}
+
+body{
+    background-color:black;
+}
+
+.card{
+    text-align: center;
+    width:fit-content;
+    margin: 40px auto 0;
+    background-image: linear-gradient(to top, chartreuse, forestgreen );
+    margin-top: 100px;
+    border-radius: 15px;
+    position: relative;
+}
+.weather-search{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    position:relative
+}
+
+.weather-search input{
+    margin-left: 140px;
+    width: 250px;
+    padding-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border-style: none;
+}
+.weather-search button{
+    margin-right: 150px;
+    border-style: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    cursor:pointer;
+}
+.weather-search button img{
+    transition: transform 0.5s ease-in-out;
+}
+.weather-search button img:hover{
+    transform:scale(1.1) ;
+}
+.weather-search button img{
+    width: 40px; 
+}
+
+.weather-details{
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+
+.weather-details img{
+    padding-bottom: 10px;
+
+}
+
+.weather-details .info h1{
+    font-size: 50px;
+
+}
+.weather-details .info h2{
+    font-size: 30px;
+}
+
+.information {
+    
+    padding-top:25px ;
+    padding-bottom: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    margin-left: 60px;
+    
+}
+.information .humidity{
+    width:60px;
+
+}
+
+
+ .information .words .humidity-percent{
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+ }
+ .information .words .wind-percent{
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+ }
+
+ .information .words .desc{
+        font-size: 20px;
+        padding-bottom: 10px;
+
+ }
+
+ .information .windspeed{
+        margin-left: 90px;
+
+ }
+
+ .information .windspeed img{
+        margin-right: -45px;
+
+ }
